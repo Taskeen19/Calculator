@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <title>Professional Calculator | Taskeen Qaiser</title>
+        <meta name="description" content="A modern, professional calculator built with HTML, CSS, and JavaScript by Taskeen Qaiser">
+        <meta name="keywords" content="calculator, math, javascript, web development, taskeen qaiser">
+        <meta name="author" content="Taskeen Qaiser">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 class="title">Professional Calculator</h1>
+                <p class="subtitle">Built with precision and style</p>
+            </header>
+            
+            <main class="calculator-container">
+                <div class="calculator">
+                    <div class="display-section">
+                        <div class="history" id="history"></div>
+                        <input type="text" placeholder="0" id="inputBox" readonly>
+                    </div>
+                    
+                    <div class="button-grid">
+                        <button class="btn btn-function" data-action="clear">AC</button>
+                        <button class="btn btn-function" data-action="delete">DEL</button>
+                        <button class="btn btn-operator" data-value="%">%</button>
+                        <button class="btn btn-operator" data-value="/">÷</button>
+                        
+                        <button class="btn btn-number" data-value="7">7</button>
+                        <button class="btn btn-number" data-value="8">8</button>
+                        <button class="btn btn-number" data-value="9">9</button>
+                        <button class="btn btn-operator" data-value="*">×</button>
+                        
+                        <button class="btn btn-number" data-value="4">4</button>
+                        <button class="btn btn-number" data-value="5">5</button>
+                        <button class="btn btn-number" data-value="6">6</button>
+                        <button class="btn btn-operator" data-value="-">−</button>
+                        
+                        <button class="btn btn-number" data-value="1">1</button>
+                        <button class="btn btn-number" data-value="2">2</button>
+                        <button class="btn btn-number" data-value="3">3</button>
+                        <button class="btn btn-operator" data-value="+">+</button>
+                        
+                        <button class="btn btn-number span-2" data-value="0">0</button>
+                        <button class="btn btn-number" data-value=".">.</button>
+                        <button class="btn btn-equals" data-action="calculate">=</button>
+                    </div>
+                </div>
+            </main>
+            
+            <footer class="footer">
+                <div class="footer-content">
+                    <p class="credit">
+                        Designed & Developed with ❤️ by 
+                        <span class="developer-name">Taskeen Qaiser</span>
+                    </p>
+                    <p class="tech-stack">HTML • CSS • JavaScript</p>
+                    <p class="year">&copy; 2025</p>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
