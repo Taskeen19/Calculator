@@ -165,11 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🚀 Passionate about creating beautiful, functional user interfaces
 
 ### **Connect with me:**
-- 📧 Email: [taskeen.qaiser@example.com](mailto:taskeen.qaiser@example.com)
-- 💼 LinkedIn: [linkedin.com/in/taskeen-qaiser](https://linkedin.com/in/taskeen-qaiser)
-- 🐙 GitHub: [github.com/taskeen-qaiser](https://github.com/taskeen-qaiser)
-- 🌐 Portfolio: [taskeen-qaiser.dev](https://taskeen-qaiser.dev)
-
+- 📧 Email: [taskeenqaiser1@gmail.com](mailto:taskeenqaiser1@gmail.com)
 ## 🙏 Acknowledgments
 
 - **Design Inspiration**: Modern glassmorphism trends
